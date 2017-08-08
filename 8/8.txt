@@ -7,6 +7,6 @@ a是行级元素，给他加上display:block,转换为块级元素，再设置�
 display:inline-block 即有行级元素特点，又有块级元素特点
 
 分支
-if
+if是通用的，其他两个都可以用if来写
 swich
 ？ ：三目运算
