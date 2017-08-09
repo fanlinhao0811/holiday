@@ -9,8 +9,9 @@ document.querySelectorAll()
 
 
 判断是否为一个数组
-1.instanceof
-2.constructor
+1.constructor
+
+2.instanceof
 function isArray(arr){
 if(arr.constructor == Array && arr instanceof Array)
 {return true;
