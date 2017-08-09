@@ -6,4 +6,13 @@ content.getElementsByClassName('');
 content.getElementsByName();
 document.querySelector();
 document.querySelectorAll()
-DOM操作有
+
+
+判断是否为一个数组
+1.instanceof
+2.constructor
+function isArray(arr){
+if(arr.constructor == Array && arr instanceof Array)
+{return true;
+}return false;
+}
