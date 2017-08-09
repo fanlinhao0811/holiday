@@ -1,0 +1,9 @@
+mdn()
+javascript中元素的查找
+document.getElementById('');
+content.geyElementsByTagName('');
+content.getElementsByClassName('');
+content.getElementsByName();
+document.querySelector();
+document.querySelectorAll()
+DOM
