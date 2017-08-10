@@ -23,3 +23,7 @@ if(arr.constructor == Array && arr instanceof Array)
 em是一个相对单位，相对父元素的倍数，一般情况下网页字体默认16px
 相对于父元素font-size属性的倍数
 rem的r是root，相对于html
+
+breakpoint(常见断点):1200（主流pc） 992（早期pc） 768（ipad）
+外联样式在标签中添加media="（）"
+代码段直接@media（）{              }
