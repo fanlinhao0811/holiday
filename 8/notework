@@ -17,3 +17,6 @@ if(arr.constructor == Array && arr instanceof Array)
 {return true;
 }return false;
 }
+
+
+1inch=2.54cm
