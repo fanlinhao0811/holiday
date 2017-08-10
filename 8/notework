@@ -20,3 +20,4 @@ if(arr.constructor == Array && arr instanceof Array)
 
 
 1inch=2.54cm
+em是一个相对单位，相对父元素的倍数，一般情况下网页字体默认16px
