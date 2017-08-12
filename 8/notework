@@ -28,3 +28,6 @@ breakpoint(常见断点):1200（主流pc） 992（早期pc） 768（ipad）
 外联样式在标签中添加media="（）"
 代码段直接@media（）{              }
 设备横屏还是竖屏，用orientation（方向）属性    landscape（横屏） portrait（竖屏）
+
+
+bootstrap  格栅
