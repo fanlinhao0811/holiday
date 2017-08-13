@@ -18,7 +18,7 @@ if(arr.constructor == Array && arr instanceof Array)
 }return false;
 }
 
-设备DPR相当于比例，2就是2倍
+设备DPR（device-pixel-ratio）相当于比例，2就是2倍
 1inch=2.54cm
 em是一个相对单位，相对父元素的倍数，一般情况下网页字体默认16px
 相对于父元素font-size属性的倍数
