@@ -32,3 +32,7 @@ breakpoint(常见断点):1200（主流pc） 992（早期pc） 768（ipad）
 
 bootstrap  格栅
 cookie
+
+window.onresize=function(){
+console.log(document.body.offsetWidth)
+}

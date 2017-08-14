@@ -2,6 +2,8 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
     <title>小海豹</title>
     <style>
         *{
@@ -59,6 +61,26 @@
              /*display: block;*/
              /*clear: both;*/
          /*}*/
+        @media (max-width: 959px) {
+            h3,article,figure{
+                width: 100%;
+            }
+            #left{
+                width: 67%;
+                margin-right: 3%;
+            }
+            #right{
+                width: 30%;
+            }
+            figure img{
+                width: 100%;
+            }
+        }
+        @media (max-width: 479px) {
+            #left,#right{
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
