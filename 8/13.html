@@ -21,18 +21,16 @@
         }
         figure{
             width: 960px;
+            height: 540px;
             margin: 0 auto;
+            background: url("01.jpg") no-repeat;
+            background-size: contain;
         }
-        figure img{
-            width: 960px;
-            /*height: 540px;*/
-            display: block;
-        }
+
         article{
             width: 960px;
             margin: 0 auto;
             text-align: center;
-            overflow: hidden;
         }
         #left{
             width: 630px;
@@ -56,14 +54,19 @@
             vertical-align: middle;
 
         }
-        /*.clearfix::after{*/
-             /*content:"";*/
-             /*display: block;*/
-             /*clear: both;*/
-         /*}*/
+        .clearfix::after{
+             content:"";
+             display: block;
+             clear: both;
+         }
         @media (max-width: 959px) {
             h3,article,figure{
                 width: 100%;
+            }
+            figure{
+                background-image: url("01_s_2x.jpg");
+                height: 0;
+                padding-top: 56.25%;
             }
             #left{
                 width: 67%;
@@ -80,6 +83,9 @@
             #left,#right{
                 width: 100%;
             }
+            figure{
+                background-image: url(01_s.jpg);
+            }
         }
     </style>
 </head>
@@ -91,7 +97,6 @@
     <h3>导航</h3>
 </nav>
 <figure>
-    <img src="01.jpg" alt=""/>
 </figure>
 <article class="clearfix">
     <section id="left">
