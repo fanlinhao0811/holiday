@@ -36,3 +36,10 @@ cookie
 window.onresize=function(){
 console.log(document.body.offsetWidth)
 }
+
+jQuery优点
+1.提供了丰富的选择器
+2.解决了浏览器之间兼容问题
+3.提供了很多DOM操作方法
+4.动画函数
+5.插件
