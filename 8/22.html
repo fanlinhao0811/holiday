@@ -7,9 +7,15 @@
 <body>
 <input type="file" />
 <input type="reset" value=""/>
+<div id="div1"></div>
 
 <script src="jquery.mobile-1.4.5.min.css"></script>
 <script>
+    var oDiv1=document.getElementById("div1");
+    oDiv1.index=5;
+    console.log(oDiv1.index);
+
+    oDiv1.setAttribute("aa","33")
     $(document).ready(function(){
 
     });
