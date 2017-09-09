@@ -4,4 +4,4 @@ function next(elem){
     }while(elem && elem.nodeType !=1);
     return elem;
 }
-function
+function  for
