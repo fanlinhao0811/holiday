@@ -10,3 +10,4 @@ display:inline-block 即有行级元素特点，又有块级元素特点
 if是通用的，其他两个都可以用if来写
 swich
 ？ ：三目运算
+
